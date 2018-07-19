@@ -33,20 +33,20 @@
 			color:white;
 		}
 		.left {background-color:#42a6e5;
-             height:1000px;
-             width:43%;
+             height:654px;
+             width:58%;
              float:left;
 			}
 			.center {background-color:#42a6e5;
-             height:1000px;
+             height:654px;
              width:6%;
              float:left;
-             padding-bottom:10px;
+             
 			}
 			.right {background-color:#42a6e5;
-             height:1000px;
-             width:30%;
-             float:left;
+             height:374px;
+             width:36%;
+             float:right;
 			}
 
 		#one{
@@ -60,7 +60,7 @@
 			writing-mode: vertical-lr;
 			text-orientation: upright;
 			font-size: 25px;
-			margin-left:-5px;
+			margin-left:6px;
 		}
 		#p4{
 			margin-left:5px;
@@ -69,6 +69,51 @@
 		p{
 			color:#ffb3b3;
 		}
+
+		.box{
+			background-color:steelblue;
+			width: 687px;
+			display: inline-block;
+			margin-right: 10px;
+			margin-left: 5px;
+			padding-top: 4px;
+			margin-top: 4px;
+			height: 252px;
+		}
+		.box2{
+			background-color:steelblue;
+			width: 798px;
+			display: inline-block;
+			margin-right: -350px;
+			margin-left: -221px;
+		}
+		ul{
+			list-style:none;
+		}
+
+		ul li{
+			display: inline-block;
+			border: 2px solid #fff;
+			border-radius: 5px;
+			margin: 2px;
+		}
+		#text{
+			margin-left: 177px;
+
+		}
+		.overlay{
+			background-color: steelblue;
+			opacity: 0.2;
+			transition: 0.3sec;
+
+		}
+
+		.overlay:hover{
+			background-color: transparent;
+		}
+
+
+
 		
 		
 
@@ -83,9 +128,9 @@
 			</div>
 			<div class="nav">
 				<ul>
-					<li a href="#">HOME</a></li>
-					<li a href="#">GALLERY</a></li>
-					<li a href="#">EXPLORE</a></li>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">GALLERY</a></li>
+					<li><a href="#">EXPLORE</a></li>
 					<li><input class="search-button" type="search" placeholder="search site"></li>
 				</ul>	
 			</div>	
@@ -93,14 +138,47 @@
 	
         <div class="main">
         	<section class="left">
-        		<img id="one" src="im/gt.jpg" height="350px" width="450px" alt="waterfall">
-  			</section>
-  			<section class="center">
+        		 <img id="one" src="im/gt.jpg" height="350px" width="800px" alt="waterfall">
+        		<section class="box">
+        		<div class="overlay">
+        			<ul>
+        				<li><img src="im/cuffy.jpg" height="100px" width="120px" alt="cuffy"><li>
+        				<li><img src="im/lighthouse.jpg" height="100px" width="120px" alt="lighthouse"></li>
+        				<li><img src="im/market.jpg" height="100px" width="120px" alt="market"></li>
+        				<li><img src="im/par1.jpg" height="100px" width="120px" alt="parliment"></li>
+        				<li><img src="im/seawalls.jpg" height="100px" width="120px" alt="seawalls"></li>
+        			</ul>
+        		</div>	
+        			<p id="text">1763 Cuffy monument<br>to commemorate,<br>the Berbice Uprising</p>	
+				</section>
+			
+        	</section>	
+  		 			
+
+  		 	<section class="center">
   				<p>THE LAND OF MANY <br><p id="p5">WATERS</p>
   			</section>
 
 			<section class="right">
 				<img id="two" src="im/Guyana.jpg" height="360px" width="300px" alt="GuyanaMap">
+        	</section>
+
+        	<section class="box2">
+        		   <ul>
+						<li><img src="im/fort.jpg" alt="fort" height="100px" width="100px"></li>
+						<li><img src="im/bridge.jpg" alt="treebridge" height="100px" width="100px"></li>
+						<li><img src="im/Wildlife.jpg" alt="bird" height="100px" width="100px"></li>
+						<li><img src="im/wildlife2.jpg" alt="bird" height="100px" width="100px"></li>
+					    <li><img src="im/wildlife3.jpg" alt="bird" height="100px" width="100px" ></li>
+					    <li><img src="im/wildlife4.jpg" alt="bird" height="100px" width="100px"></li>
+						<li><img src="im/wildlife5.jpg" alt="bird" height="100px" width="100px"></li>
+						<li><img src="im/resort.jpg" alt="resort" height="100px" width="200px"></li>
+					</ul>	
+			</section>
+
+        	
+        		
+
         		
         	</section>
         	
